@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class CircuitBreakerExample2Application {
+public class BookstoreApplication {
 
 	@RequestMapping(value = "/recommended")
 	public String readingList(){
@@ -16,7 +16,7 @@ public class CircuitBreakerExample2Application {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(CircuitBreakerExample2Application.class, args);
+		SpringApplication.run(BookstoreApplication.class, args);
 	}
 
 }
